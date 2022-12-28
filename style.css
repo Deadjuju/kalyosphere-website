@@ -2,17 +2,12 @@
     max-width: 1920px;
     margin: 0 auto;
 }
-
-
-/* summary section */
-
-#summary div{
-    border-top-left-radius: 75px;
-    border-bottom-right-radius: 75px;
+.parallax-section {
+    min-height: 500px;
 }
 
 
-/* team section */
+/* ----- Team section ----- */
 
 #team {
     background-color: #F1F1F1;
@@ -30,7 +25,8 @@
 }
 
 
-/* affiliated section */
+/* ----- Affiliated section ----- */
+
 #affiliated-business .affiliated-group {
     transition: background-color 0.3s ease-in-out;
 }
@@ -38,10 +34,17 @@
     background-color:  #F1F1F1;
 }
 
-/* RD Project Section */
-.parallax-section {
-    background: url('img/geothermal.jpg') no-repeat bottom / cover fixed; min-height: 250px;
+
+/* ----- RD Project Section ----- */
+#rd-project .parallax-section {
+    background: url('./img/parallax-rd-project.jpg') no-repeat bottom / cover fixed;
 }
 #rd-project {
     background-color: #F1F1F1;
+}
+
+
+/* ----- Case Studies Section ----- */
+#case-studies .parallax-section{
+    background: url('./img/parallax-case-studies.jpg') no-repeat bottom / cover fixed;
 }
