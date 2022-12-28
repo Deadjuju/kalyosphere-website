@@ -1,0 +1,47 @@
+.global-container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+/* summary section */
+
+#summary div{
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+
+/* team section */
+
+#team {
+    background-color: #F1F1F1;
+}
+
+#team .card {
+    transition: box-shadow 0.3s ease-in-out;
+}
+#team .card:hover {
+    box-shadow: 4px 4px 40px 1px #313131;
+}
+
+#team .card-footer {
+    height: 55px;
+}
+
+
+/* affiliated section */
+#affiliated-business .affiliated-group {
+    transition: background-color 0.3s ease-in-out;
+}
+#affiliated-business .affiliated-group:hover {
+    background-color:  #F1F1F1;
+}
+
+/* RD Project Section */
+.parallax-section {
+    background: url('img/geothermal.jpg') no-repeat bottom / cover fixed; min-height: 250px;
+}
+#rd-project {
+    background-color: #F1F1F1;
+}
