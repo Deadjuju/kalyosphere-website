@@ -38,6 +38,7 @@
 /* ----- RD Project Section ----- */
 #rd-project .parallax-section {
     background: url('./img/parallax-rd-project.jpg') no-repeat bottom / cover fixed;
+    /* License Unsplash -- https://unsplash.com/fr/licence -- */
 }
 #rd-project {
     background-color: #F1F1F1;
@@ -47,12 +48,14 @@
 /* ----- Case Studies Section ----- */
 #case-studies .parallax-section {
     background: url('./img/parallax-case-studies.jpg') no-repeat bottom / cover fixed;
+    /* License Unsplash -- https://unsplash.com/fr/licence -- */
 }
 
 
 /* ----- Papers Section ----- */
 #papers .parallax-section {
     background: url('./img/parallax-papers.jpg') no-repeat bottom / cover fixed;
+    /* License Unsplash -- https://unsplash.com/fr/licence -- */
 }
 
 
@@ -62,6 +65,7 @@
 }
 #contact .parallax-section {
     background: url('./img/parallax-contact.jpg') no-repeat bottom / cover fixed;
+    /* License Unsplash -- https://unsplash.com/fr/licence -- */
 }
 
 
