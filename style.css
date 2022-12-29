@@ -63,3 +63,10 @@
 #contact .parallax-section {
     background: url('./img/parallax-contact.jpg') no-repeat bottom / cover fixed;
 }
+
+
+/* ----- Footer ----- */
+footer {
+    border-top-left-radius: 25%;
+    border-top: 5px solid #3bb34b;
+}
