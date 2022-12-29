@@ -1,23 +1,77 @@
+/* ________________________________________ */
+/* ----- VARIABLES ----- */
+
+:root{
+    --kalyosphere-green: #3bb34b;
+    --kalyosphere-blue: #1F4B7A;
+    --kalyosphere-grey: #595959;
+    --linkedin-blue: #0e76a8;
+}
+
+
+/* ________________________________________ */
+/* ----- Globale ----- */
+
 .global-container {
     max-width: 1920px;
     margin: 0 auto;
 }
+section .text-k-green {
+    color: var(--kalyosphere-green);
+}
+section .text-k-blue {
+    color: var(--kalyosphere-blue);
+}
+section .text-k-grey {
+    color: var(--kalyosphere-grey);
+}
+
+section .bg-linkedin {
+    background-color: var(--linkedin-blue);
+    transition: background-color 0.3s ease-in-out;
+}
+section .bg-linkedin:hover {
+    background-color: var(--kalyosphere-blue);
+}
 .parallax-section {
-    min-height: 500px;
+    min-height: 600px;
 }
 
 
+
+/* ________________________________________ */
+/* ----- Summary Section ----- */
+#summary {
+}
+#summary .parallax-section {
+    /* min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    background: url('./img/parallax-summary.jpg');
+    background-attachment: fixed; */
+    /* License Unsplash -- https://unsplash.com/fr/licence -- */
+}
+
+
+/* ________________________________________ */
 /* ----- Team section ----- */
 
 #team {
     background-color: #F1F1F1;
 }
-
+#team h2{
+    color: #595959;
+}
 #team .card {
-    transition: box-shadow 0.3s ease-in-out;
+    color: var(--kalyosphere-blue);
+    /* transition: box-shadow 0.3s ease-in-out; */
+    transition: border-radius 0.3s ease-in-out;
 }
 #team .card:hover {
-    box-shadow: 4px 4px 40px 1px #313131;
+    /* box-shadow: 4px 4px 40px 1px #313131; */
+    border-radius: 10%;
 }
 
 #team .card-footer {
@@ -25,8 +79,12 @@
 }
 
 
+/* ________________________________________ */
 /* ----- Affiliated section ----- */
 
+#affiliated-business h2 {
+    color: var(--kalyosphere-grey);
+}
 #affiliated-business .affiliated-group {
     transition: background-color 0.3s ease-in-out;
 }
@@ -35,16 +93,18 @@
 }
 
 
+/* ________________________________________ */
 /* ----- RD Project Section ----- */
+#rd-project {
+    background-color: #F1F1F1;
+}
 #rd-project .parallax-section {
     background: url('./img/parallax-rd-project.jpg') no-repeat bottom / cover fixed;
     /* License Unsplash -- https://unsplash.com/fr/licence -- */
 }
-#rd-project {
-    background-color: #F1F1F1;
-}
 
 
+/* ________________________________________ */
 /* ----- Case Studies Section ----- */
 #case-studies .parallax-section {
     background: url('./img/parallax-case-studies.jpg') no-repeat bottom / cover fixed;
@@ -52,6 +112,7 @@
 }
 
 
+/* ________________________________________ */
 /* ----- Papers Section ----- */
 #papers .parallax-section {
     background: url('./img/parallax-papers.jpg') no-repeat bottom / cover fixed;
@@ -59,6 +120,7 @@
 }
 
 
+/* ________________________________________ */
 /* ----- Contact Section ----- */
 #contact {
     min-height: 100vh;
@@ -69,8 +131,16 @@
 }
 
 
+/* ________________________________________ */
 /* ----- Footer ----- */
 footer {
     border-top-left-radius: 25%;
-    border-top: 5px solid #3bb34b;
+    border-top: 5px solid var(--kalyosphere-green);
+    transition: all 0.5s ease-in-out;
+}
+
+footer:hover {
+    /* border-top-left-radius: 75%; */
+    border-top-left-radius: 75%;
+    transform: translate(-25px);
 }
