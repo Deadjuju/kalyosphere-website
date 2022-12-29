@@ -34,35 +34,31 @@ section .bg-linkedin:hover {
     background-color: var(--kalyosphere-blue);
 }
 .parallax-section {
-    min-height: 600px;
+    min-height: 300px;
 }
 
 
 
 /* ________________________________________ */
 /* ----- Summary Section ----- */
-#summary {
-}
 #summary .parallax-section {
-    /* min-height: 100vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     
     background: url('./img/parallax-summary.jpg');
-    background-attachment: fixed; */
-    /* License Unsplash -- https://unsplash.com/fr/licence -- */
+    background-attachment: fixed;
+    /* Photo de la NASA sur Unsplash -- https://unsplash.com/fr/photos/Q1p7bh3SHj8 */
 }
 
 
 /* ________________________________________ */
 /* ----- Team section ----- */
 
-#team {
-    background-color: #F1F1F1;
-}
-#team h2{
-    color: #595959;
+#team .parallax-section {
+    background: url('./img/parallax-team.jpg') no-repeat bottom / cover fixed;
+    /* Photo de Viktor Kiryanov sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
 }
 #team .card {
     color: var(--kalyosphere-blue);
@@ -73,7 +69,6 @@ section .bg-linkedin:hover {
     /* box-shadow: 4px 4px 40px 1px #313131; */
     border-radius: 10%;
 }
-
 #team .card-footer {
     height: 55px;
 }
@@ -82,6 +77,10 @@ section .bg-linkedin:hover {
 /* ________________________________________ */
 /* ----- Affiliated section ----- */
 
+#affiliated-business .parallax-section {
+    background: url('./img/parallax-affiliated-business.jpg') no-repeat bottom / cover fixed;
+    /* Photo de Viktor Kiryanov sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
+}
 #affiliated-business h2 {
     color: var(--kalyosphere-grey);
 }
@@ -100,7 +99,7 @@ section .bg-linkedin:hover {
 }
 #rd-project .parallax-section {
     background: url('./img/parallax-rd-project.jpg') no-repeat bottom / cover fixed;
-    /* License Unsplash -- https://unsplash.com/fr/licence -- */
+    /* https://fr.freepik.com/photos-gratuite/prise-vue-plongee-volcan-chauffe-cours-eruption_8943666.htm#query=geothermie&position=47&from_view=search&track=sph >> Image de Wirestock sur Freepik */
 }
 
 
@@ -108,7 +107,8 @@ section .bg-linkedin:hover {
 /* ----- Case Studies Section ----- */
 #case-studies .parallax-section {
     background: url('./img/parallax-case-studies.jpg') no-repeat bottom / cover fixed;
-    /* License Unsplash -- https://unsplash.com/fr/licence -- */
+    /* Photo de Dan Meyers sur Unsplash -- https://unsplash.com/fr/photos/nSpL2yS0We8 */
+
 }
 
 
@@ -116,7 +116,7 @@ section .bg-linkedin:hover {
 /* ----- Papers Section ----- */
 #papers .parallax-section {
     background: url('./img/parallax-papers.jpg') no-repeat bottom / cover fixed;
-    /* License Unsplash -- https://unsplash.com/fr/licence -- */
+    /* Photo de Ása Steinarsdóttir sur Unsplash -- https://unsplash.com/fr/photos/_xmAPHUXXiU/partager */
 }
 
 
@@ -127,7 +127,7 @@ section .bg-linkedin:hover {
 }
 #contact .parallax-section {
     background: url('./img/parallax-contact.jpg') no-repeat bottom / cover fixed;
-    /* License Unsplash -- https://unsplash.com/fr/licence -- */
+    /* Photo de Álvaro Serrano sur Unsplash -- https://unsplash.com/fr/photos/hjwKMkehBco */
 }
 
 
@@ -140,7 +140,6 @@ footer {
 }
 
 footer:hover {
-    /* border-top-left-radius: 75%; */
     border-top-left-radius: 75%;
-    transform: translate(-25px);
+    /* transform: translate(-25px); */
 }
