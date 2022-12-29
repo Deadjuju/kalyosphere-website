@@ -54,3 +54,9 @@
 #papers .parallax-section {
     background: url('./img/parallax-papers.jpg') no-repeat bottom / cover fixed;
 }
+
+
+/* ----- Contact Section ----- */
+#contact .parallax-section {
+    background: url('./img/parallax-contact.jpg') no-repeat bottom / cover fixed;
+}
