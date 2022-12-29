@@ -57,6 +57,9 @@
 
 
 /* ----- Contact Section ----- */
+#contact {
+    min-height: 100vh;
+}
 #contact .parallax-section {
     background: url('./img/parallax-contact.jpg') no-repeat bottom / cover fixed;
 }
