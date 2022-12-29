@@ -45,6 +45,12 @@
 
 
 /* ----- Case Studies Section ----- */
-#case-studies .parallax-section{
+#case-studies .parallax-section {
     background: url('./img/parallax-case-studies.jpg') no-repeat bottom / cover fixed;
+}
+
+
+/* ----- Papers Section ----- */
+#papers .parallax-section {
+    background: url('./img/parallax-papers.jpg') no-repeat bottom / cover fixed;
 }
