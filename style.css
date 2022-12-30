@@ -5,6 +5,7 @@
     --kalyosphere-green: #3bb34b;
     --kalyosphere-blue: #1F4B7A;
     --kalyosphere-grey: #595959;
+    --kalyosphere-black: #333;
     --linkedin-blue: #0e76a8;
 }
 
@@ -23,6 +24,9 @@ section .text-k-blue {
     color: var(--kalyosphere-blue);
 }
 section .text-k-grey {
+    color: var(--kalyosphere-grey);
+}
+section .text-k-black {
     color: var(--kalyosphere-grey);
 }
 
@@ -55,14 +59,15 @@ section .bg-linkedin:hover {
     box-shadow: 2px -5px 5px 0 #000000;
 }
 #summary .parallax-section {
-    min-height: 100vh;
+    /* min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     
     background: url('./img/parallax-summary.jpg');
-    background-attachment: fixed;
-    /* Photo de la NASA sur Unsplash -- https://unsplash.com/fr/photos/Q1p7bh3SHj8 */
+    background-attachment: fixed; */
+    
+    background: url('./img/parallax-summary.jpg') no-repeat bottom / cover fixed;
 }
 
 
@@ -70,6 +75,9 @@ section .bg-linkedin:hover {
 /* ----- Team section ----- */
 
 #team .parallax-section {
+    /* background: url('./img/parallax-team.jpg') no-repeat bottom / cover fixed; */
+    /* Photo de Viktor Kiryanov sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
+
     background: url('./img/parallax-team.jpg') no-repeat bottom / cover fixed;
     /* Photo de Viktor Kiryanov sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
 }
@@ -94,14 +102,15 @@ section .bg-linkedin:hover {
     background: url('./img/parallax-affiliated-business.jpg') no-repeat bottom / cover fixed;
     /* Photo de Viktor Kiryanov sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
 }
-#affiliated-business h2 {
-    color: var(--kalyosphere-grey);
-}
 #affiliated-business .affiliated-group {
     transition: background-color 0.3s ease-in-out;
 }
 #affiliated-business .affiliated-group:hover {
     background-color:  #F1F1F1;
+}
+#affiliated-business hr {
+    width: 40%;
+    border: 1px solid;
 }
 
 
@@ -149,6 +158,3 @@ footer {
     transition: all 0.5s ease-in-out;
 }
 
-footer:hover {
-    border-top-left-radius: 50%;
-}
