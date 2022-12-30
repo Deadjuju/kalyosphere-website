@@ -43,6 +43,9 @@ section .bg-linkedin:hover {
 .parallax-section {
     min-height: 300px;
 }
+.empty-div {
+    height: 75px;
+}
 
 
 /* ________________________________________ */
