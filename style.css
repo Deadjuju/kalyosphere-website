@@ -38,9 +38,22 @@ section .bg-linkedin:hover {
 }
 
 
+/* ________________________________________ */
+/* ----- Comming-soon ----- */
+
+#coming-soon{
+    position: sticky;
+    top: 55px;
+    z-index: -1;
+}
+
 
 /* ________________________________________ */
 /* ----- Summary Section ----- */
+
+#summary {
+    box-shadow: 2px -5px 5px 0 #000000;
+}
 #summary .parallax-section {
     min-height: 100vh;
     background-repeat: no-repeat;
@@ -94,9 +107,6 @@ section .bg-linkedin:hover {
 
 /* ________________________________________ */
 /* ----- RD Project Section ----- */
-#rd-project {
-    background-color: #F1F1F1;
-}
 #rd-project .parallax-section {
     background: url('./img/parallax-rd-project.jpg') no-repeat bottom / cover fixed;
     /* https://fr.freepik.com/photos-gratuite/prise-vue-plongee-volcan-chauffe-cours-eruption_8943666.htm#query=geothermie&position=47&from_view=search&track=sph >> Image de Wirestock sur Freepik */
@@ -140,6 +150,5 @@ footer {
 }
 
 footer:hover {
-    border-top-left-radius: 75%;
-    /* transform: translate(-25px); */
+    border-top-left-radius: 50%;
 }
