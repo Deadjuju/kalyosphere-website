@@ -6,6 +6,7 @@
     --kalyosphere-blue: #1F4B7A;
     --kalyosphere-grey: #595959;
     --kalyosphere-black: #333;
+    --kalyosphere-font: 'DM Sans', sans-serif;
     --linkedin-blue: #0e76a8;
 }
 
@@ -17,19 +18,21 @@
     max-width: 1920px;
     margin: 0 auto;
 }
-section .text-k-green {
+.text-k-green {
     color: var(--kalyosphere-green);
 }
-section .text-k-blue {
+.text-k-blue {
     color: var(--kalyosphere-blue);
 }
-section .text-k-grey {
+.text-k-grey {
     color: var(--kalyosphere-grey);
 }
-section .text-k-black {
+.text-k-black {
     color: var(--kalyosphere-grey);
 }
-
+.font-k {
+    font-family: var(--kalyosphere-font);
+}
 section .bg-linkedin {
     background-color: var(--linkedin-blue);
     transition: background-color 0.3s ease-in-out;
@@ -59,15 +62,9 @@ section .bg-linkedin:hover {
     box-shadow: 2px -5px 5px 0 #000000;
 }
 #summary .parallax-section {
-    /* min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-    background: url('./img/parallax-summary.jpg');
-    background-attachment: fixed; */
-    
+    min-height: 100vh;    
     background: url('./img/parallax-summary.jpg') no-repeat bottom / cover fixed;
+    /* Photo de Marjan Blan sur Unsplash -- https://unsplash.com/fr/photos/6bXvYyAYVrE */
 }
 
 
@@ -75,11 +72,8 @@ section .bg-linkedin:hover {
 /* ----- Team section ----- */
 
 #team .parallax-section {
-    /* background: url('./img/parallax-team.jpg') no-repeat bottom / cover fixed; */
-    /* Photo de Viktor Kiryanov sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
-
     background: url('./img/parallax-team.jpg') no-repeat bottom / cover fixed;
-    /* Photo de Viktor Kiryanov sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
+    /* Photo de la Nasa sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
 }
 #team .card {
     color: var(--kalyosphere-blue);
@@ -132,9 +126,9 @@ section .bg-linkedin:hover {
 
 
 /* ________________________________________ */
-/* ----- Papers Section ----- */
-#papers .parallax-section {
-    background: url('./img/parallax-papers.jpg') no-repeat bottom / cover fixed;
+/* ----- Publications Section ----- */
+#publications .parallax-section {
+    background: url('./img/parallax-publications.jpg') no-repeat bottom / cover fixed;
     /* Photo de Ása Steinarsdóttir sur Unsplash -- https://unsplash.com/fr/photos/_xmAPHUXXiU/partager */
 }
 
