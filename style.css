@@ -51,6 +51,14 @@ section .bg-linkedin:hover {
 /* ________________________________________ */
 /* ----- Comming-soon ----- */
 
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ________________________________________ */
+/* ----- Comming-soon ----- */
+
 #coming-soon{
     position: sticky;
     top: 55px;
@@ -65,9 +73,16 @@ section .bg-linkedin:hover {
     box-shadow: 2px -5px 5px 0 #000000;
 }
 #summary .parallax-section {
-    min-height: 100vh;    
-    background: url('./img/parallax-summary.jpg') no-repeat bottom / cover fixed;
+    min-height: 100vh;
+
+    /* background: url('./img/parallax-summary.jpg') no-repeat bottom / cover fixed; */
+    background: url('./img/parallax-summary.jpg');
     /* Photo de Marjan Blan sur Unsplash -- https://unsplash.com/fr/photos/6bXvYyAYVrE */
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -84,7 +99,6 @@ section .bg-linkedin:hover {
     transition: border-radius 0.3s ease-in-out;
 }
 #team .card:hover {
-    /* box-shadow: 4px 4px 40px 1px #313131; */
     border-radius: 10%;
 }
 #team .card-footer {
