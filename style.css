@@ -28,7 +28,7 @@
     color: var(--kalyosphere-grey);
 }
 .text-k-black {
-    color: var(--kalyosphere-grey);
+    color: var(--kalyosphere-black);
 }
 .font-k {
     font-family: var(--kalyosphere-font);
@@ -44,6 +44,7 @@ section .bg-linkedin:hover {
 }
 .parallax-section {
     min-height: 300px;
+    height: auto;
 }
 .empty-div {
     height: 75px;
