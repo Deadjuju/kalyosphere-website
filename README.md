@@ -1,4 +1,4 @@
-![Logo](img/Kalyosphere_maj_transparent_v2.png)
+![Logo](img/logo-kalyosphere.png)
 
 # ***Coming Soon*** page for the upcomming website
 
