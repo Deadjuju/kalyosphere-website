@@ -35,6 +35,8 @@
 }
 section .bg-linkedin {
     background-color: var(--linkedin-blue);
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
 }
 section .bg-linkedin:hover {
@@ -70,7 +72,8 @@ nav a:hover {
 /* ----- Summary Section ----- */
 
 #summary {
-    box-shadow: 2px -5px 5px 0 #000000;
+    -webkit-box-shadow: 2px -5px 5px 0 #000000;
+            box-shadow: 2px -5px 5px 0 #000000;
 }
 #summary .parallax-section {
     min-height: 100vh;
@@ -95,7 +98,8 @@ nav a:hover {
 }
 #team .card {
     color: var(--kalyosphere-blue);
-    /* transition: box-shadow 0.3s ease-in-out; */
+    -webkit-transition: border-radius 0.3s ease-in-out;
+    -o-transition: border-radius 0.3s ease-in-out;
     transition: border-radius 0.3s ease-in-out;
 }
 #team .card:hover {
@@ -114,6 +118,8 @@ nav a:hover {
     /* Photo de Viktor Kiryanov sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
 }
 #affiliated-business .affiliated-group {
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
 }
 #affiliated-business .affiliated-group:hover {
@@ -166,6 +172,4 @@ nav a:hover {
 footer {
     border-top-left-radius: 25%;
     border-top: 5px solid var(--kalyosphere-green);
-    transition: all 0.5s ease-in-out;
 }
-
