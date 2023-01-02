@@ -34,9 +34,9 @@ function getFooterDates(creationDate) {
     if (curentDate === creationDate) {
         kalyosphereDates.innerText = creationDate.toString();
     } else {
-        kalyosphereDates.innerText = `${creationDate.toString()}-${curentDate}`
-    };
-};
+        kalyosphereDates.innerText = `${creationDate.toString()}-${curentDate}`;
+    }
+}
 
 
 getFooterDates(creationDate);
