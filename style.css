@@ -80,7 +80,7 @@ nav a:hover {
 
 #coming-soon{
     position: sticky;
-    top: 55px;
+    margin-bottom: 70px;
     z-index: -1;
 }
 

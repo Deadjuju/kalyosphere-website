@@ -19,6 +19,15 @@ window.addEventListener("scroll", function () {
 });
 
 
+// ---------- top coming soon section ----------
+const comingSoonSection = document.querySelector("#coming-soon");
+comingSoonSection.style.top = `${navHeight}px`;
+function getTopCommingSoonSection() {
+    const curentNavHeight = navBar.offsetHeight;
+    comingSoonSection.style.top = `${curentNavHeight}px`;
+}
+window.onresize = getTopCommingSoonSection;
+
 
 // ---------- Get footer's dates ----------
 const creationDate = 2022;
