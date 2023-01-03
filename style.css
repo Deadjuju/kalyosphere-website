@@ -47,7 +47,7 @@ section .bg-linkedin:hover {
     height: auto;
 }
 .parallax-section h2 {
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 .empty-div {
     height: 75px;
