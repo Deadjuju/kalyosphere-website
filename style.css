@@ -190,3 +190,33 @@ footer {
     border-top-left-radius: 25%;
     border-top: 5px solid var(--kalyosphere-green);
 }
+
+
+/* ________________________________________ */
+/* ----- Responsive ----- */
+
+@media only screen and (max-width: 768px) {
+
+    /* ----- Parallax ----- */
+    #summary .parallax-section {
+        background-attachment: scroll;
+    }
+    #team .parallax-section {
+        background-attachment: scroll;
+    }
+    #affiliated-business .parallax-section {
+        background-attachment: scroll;
+    }
+    #rd-project .parallax-section {
+        background-attachment: scroll;
+    }
+    #case-studies .parallax-section {
+        background-attachment: scroll;
+    }
+    #publications .parallax-section {
+        background-attachment: scroll;
+    }
+    #contact .parallax-section {
+        background-attachment: scroll;
+    }
+}
