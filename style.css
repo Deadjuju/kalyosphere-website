@@ -201,7 +201,8 @@ nav a:hover {
 #contact svg:hover {
     fill: var(--kalyosphere-green);
 }
-#contact a span:hover {
+#contact a span {
+    overflow-wrap: break-word;
     -webkit-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
