@@ -193,6 +193,23 @@ nav a:hover {
     background: url('./img/parallax-contact.jpg') no-repeat bottom / cover fixed;
     /* Photo de Álvaro Serrano sur Unsplash -- https://unsplash.com/fr/photos/hjwKMkehBco */
 }
+#contact svg:hover {
+    -webkit-transition: fill 0.3s ease-in-out;
+    -o-transition: fill 0.3s ease-in-out;
+    transition: fill 0.3s ease-in-out;
+}
+#contact svg:hover {
+    fill: var(--kalyosphere-green);
+}
+#contact a span:hover {
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+#contact a span:hover {
+    color: #3bb34b;
+    text-decoration: underline;
+}
 
 
 /* ________________________________________ */
