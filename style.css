@@ -185,6 +185,14 @@ nav a:hover {
 
 
 /* ________________________________________ */
+/* ----- start-up accompaniment ----- */
+#start-up .parallax-section {
+    background: url('./img/parallax-start-up.jpg') no-repeat bottom / cover fixed;
+    /* Photo de jcomp sur Freepik -- https://www.freepik.com/free-photo/tourists-go-up-hill-sunrise_6172108.htm */
+}
+
+
+/* ________________________________________ */
 /* ----- Contact Section ----- */
 #contact {
     min-height: 100vh;
@@ -246,6 +254,9 @@ footer {
         background-attachment: scroll;
     }
     #contact .parallax-section {
+        background-attachment: scroll;
+    }
+    #start-up .parallax-section {
         background-attachment: scroll;
     }
 }
