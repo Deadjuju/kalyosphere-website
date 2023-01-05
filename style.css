@@ -185,10 +185,19 @@ nav a:hover {
 
 
 /* ________________________________________ */
-/* ----- start-up accompaniment ----- */
-#start-up .parallax-section {
+/* ----- Business support ----- */
+#business-support .parallax-section {
     background: url('./img/parallax-start-up.jpg') no-repeat bottom / cover fixed;
     /* Photo de jcomp sur Freepik -- https://www.freepik.com/free-photo/tourists-go-up-hill-sunrise_6172108.htm */
+}
+#business-support .card {
+    color: var(--kalyosphere-blue);
+    -webkit-transition: border-radius 0.3s ease-in-out;
+    -o-transition: border-radius 0.3s ease-in-out;
+    transition: border-radius 0.3s ease-in-out;
+}
+#business-support .card:hover {
+    border-radius: 10%;
 }
 
 
