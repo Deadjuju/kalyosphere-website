@@ -68,6 +68,14 @@ section .bg-linkedin:hover {
     white-space: nowrap;
     border-width: 0;
 }
+.img-link {
+    -webkit-transition: border 0.3s ease-in-out;
+    -o-transition: border 0.3s ease-in-out;
+    transition: border 0.3s ease-in-out;
+}
+.img-link:hover {
+    border: 2px solid var(--kalyosphere-blue);
+}
 
 
 /* ________________________________________ */
@@ -156,14 +164,6 @@ nav a:hover {
 #rd-project .parallax-section {
     background: url('./img/parallax-rd-project.jpg') no-repeat bottom / cover fixed;
     /* https://fr.freepik.com/photos-gratuite/prise-vue-plongee-volcan-chauffe-cours-eruption_8943666.htm#query=geothermie&position=47&from_view=search&track=sph >> Image de Wirestock sur Freepik */
-}
-#rd-project a {
-    -webkit-transition: border 0.3s ease-in-out;
-    -o-transition: border 0.3s ease-in-out;
-    transition: border 0.3s ease-in-out;
-}
-#rd-project a:hover {
-    border: 2px solid var(--kalyosphere-blue);
 }
 
 
