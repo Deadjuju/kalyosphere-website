@@ -244,6 +244,7 @@ footer {
 @media only screen and (max-width: 768px) {
 
     /* ----- Parallax ----- */
+    /* For rendering on iPhone */
     #summary .parallax-section {
         background-attachment: scroll;
     }
@@ -265,7 +266,7 @@ footer {
     #contact .parallax-section {
         background-attachment: scroll;
     }
-    #start-up .parallax-section {
+    #business-support .parallax-section {
         background-attachment: scroll;
     }
 }
