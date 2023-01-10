@@ -23,8 +23,8 @@ window.addEventListener("scroll", function () {
 const comingSoonSection = document.querySelector("#coming-soon");
 comingSoonSection.style.top = `${navHeight}px`;
 function getTopCommingSoonSection() {
-    const curentNavHeight = navBar.offsetHeight;
-    comingSoonSection.style.top = `${curentNavHeight}px`;
+    const currentNavHeight = navBar.offsetHeight;
+    comingSoonSection.style.top = `${currentNavHeight}px`;
 }
 window.onresize = getTopCommingSoonSection;
 
@@ -39,11 +39,11 @@ const creationDate = 2022;
  */
 function getFooterDates(creationDate) {
     const kalyosphereDates = document.querySelector(".kalyosphere-dates");
-    let curentDate = new Date().getFullYear();
-    if (curentDate === creationDate) {
+    let currentDate = new Date().getFullYear();
+    if (currentDate === creationDate) {
         kalyosphereDates.innerText = creationDate.toString();
     } else {
-        kalyosphereDates.innerText = `${creationDate.toString()}-${curentDate}`;
+        kalyosphereDates.innerText = `${creationDate.toString()}-${currentDate}`;
     }
 }
 
