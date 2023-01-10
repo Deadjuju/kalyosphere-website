@@ -199,6 +199,10 @@ nav a:hover {
 #business-support .card:hover {
     border-radius: 10%;
 }
+#business-support .mentor-comittee-card {
+    width: 400px;
+}
+
 
 
 /* ________________________________________ */
