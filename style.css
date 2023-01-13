@@ -119,14 +119,14 @@ nav a:hover {
 
 /* ________________________________________ */
 /* ----- our-mission ----- */
-#our-mission h2{
+/* #our-mission h2{
     -webkit-transition: background-color 0.3s ease-in-out;
     -o-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
 }
 #our-mission h2:hover {
     background-color: #F4F4F4;
-}
+} */
 
 
 /* ________________________________________ */
