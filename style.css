@@ -140,7 +140,8 @@ nav a:hover {
 }
 
 .hamburger.open .bar:nth-child(1) {
-    transform: translateY(0px) rotate(135deg);
+    transform: translateY(13px) rotate(135deg);
+    /* transform: translateY(0px) rotate(135deg); */
 }
 
 .hamburger.open .bar:nth-child(2) {
@@ -148,7 +149,8 @@ nav a:hover {
 }
 
 .hamburger.open .bar:nth-child(3) {
-    transform: translateY(-25px) rotate(-135deg);
+    transform: translateY(-13px) rotate(-135deg);
+    /* transform: translateY(-25px) rotate(-135deg); */
 }
 
 
