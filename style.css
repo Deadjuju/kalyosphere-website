@@ -1,7 +1,7 @@
 /* ________________________________________ */
 /* ----- VARIABLES ----- */
 
-:root{
+:root {
     --kalyosphere-green: #3bb34b;
     --kalyosphere-blue: #1F4B7A;
     --kalyosphere-grey: #595959;
@@ -18,45 +18,57 @@
     max-width: 1920px;
     margin: 0 auto;
 }
+
 .text-k-green {
     color: var(--kalyosphere-green);
 }
+
 .text-k-blue {
     color: var(--kalyosphere-blue);
 }
+
 .text-k-grey {
     color: var(--kalyosphere-grey);
 }
+
 .text-k-black {
     color: var(--kalyosphere-black);
 }
+
 .font-k {
     font-family: var(--kalyosphere-font);
 }
+
 section .bg-linkedin {
     background-color: var(--linkedin-blue);
     -webkit-transition: background-color 0.3s ease-in-out;
     -o-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
 }
+
 section .bg-linkedin:hover {
     background-color: var(--kalyosphere-blue);
 }
+
 .parallax-section {
     min-height: 300px;
     height: auto;
 }
+
 .parallax-section h2 {
     text-transform: uppercase;
 }
+
 .empty-div {
     height: 75px;
 }
+
 .navbar {
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -68,28 +80,82 @@ section .bg-linkedin:hover {
     white-space: nowrap;
     border-width: 0;
 }
+
 .img-link {
     -webkit-transition: border 0.3s ease-in-out;
     -o-transition: border 0.3s ease-in-out;
     transition: border 0.3s ease-in-out;
 }
+
 .img-link:hover {
     border: 2px solid var(--kalyosphere-blue);
 }
 
 
 /* ________________________________________ */
-/* ----- Comming-soon ----- */
+/* ----- Nav ----- */
 
 nav a:hover {
     text-decoration: underline;
+}
+
+.nav-logo a {
+    height: 40px;
+}
+
+.hamburger {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.slide-in-menu {
+    animation: slide-in 0.5s forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.bar {
+    width: 100%;
+    height: 6px;
+    background-color: var(--kalyosphere-green);
+    transition: all 0.3s ease;
+}
+
+.hamburger.open .bar:nth-child(1) {
+    transform: translateY(0px) rotate(135deg);
+}
+
+.hamburger.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open .bar:nth-child(3) {
+    transform: translateY(-25px) rotate(-135deg);
 }
 
 
 /* ________________________________________ */
 /* ----- Comming-soon ----- */
 
-#coming-soon{
+#coming-soon {
     position: sticky;
     margin-bottom: 70px;
     z-index: -1;
@@ -101,8 +167,9 @@ nav a:hover {
 
 #summary {
     -webkit-box-shadow: 2px -5px 5px 0 #000000;
-            box-shadow: 2px -5px 5px 0 #000000;
+    box-shadow: 2px -5px 5px 0 #000000;
 }
+
 #summary .parallax-section {
     min-height: 100vh;
 
@@ -136,15 +203,18 @@ nav a:hover {
     background: url('./img/parallax-team.jpg') no-repeat bottom / cover fixed;
     /* Photo de la Nasa sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
 }
+
 #team .card {
     color: var(--kalyosphere-blue);
     -webkit-transition: border-radius 0.3s ease-in-out;
     -o-transition: border-radius 0.3s ease-in-out;
     transition: border-radius 0.3s ease-in-out;
 }
+
 #team .card:hover {
     border-radius: 10%;
 }
+
 #team .card-footer {
     height: 55px;
 }
@@ -157,14 +227,17 @@ nav a:hover {
     background: url('./img/parallax-affiliated-business.jpg') no-repeat bottom / cover fixed;
     /* Photo de Viktor Kiryanov sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
 }
+
 #affiliated-business .affiliated-group {
     -webkit-transition: background-color 0.3s ease-in-out;
     -o-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
 }
+
 #affiliated-business .affiliated-group:hover {
-    background-color:  #F1F1F1;
+    background-color: #F1F1F1;
 }
+
 #affiliated-business hr {
     width: 40%;
     border: 1px solid;
@@ -202,15 +275,18 @@ nav a:hover {
     background: url('./img/parallax-start-up.jpg') no-repeat bottom / cover fixed;
     /* Photo de jcomp sur Freepik -- https://www.freepik.com/free-photo/tourists-go-up-hill-sunrise_6172108.htm */
 }
+
 #business-support .card {
     color: var(--kalyosphere-blue);
     -webkit-transition: border-radius 0.3s ease-in-out;
     -o-transition: border-radius 0.3s ease-in-out;
     transition: border-radius 0.3s ease-in-out;
 }
+
 #business-support .card:hover {
     border-radius: 10%;
 }
+
 #business-support .mentor-comittee-card {
     width: 400px;
 }
@@ -222,25 +298,30 @@ nav a:hover {
 #contact {
     min-height: 100vh;
 }
+
 #contact .parallax-section {
     background: url('./img/parallax-contact.jpg') no-repeat bottom / cover fixed;
     /* Photo de Álvaro Serrano sur Unsplash -- https://unsplash.com/fr/photos/hjwKMkehBco */
 }
+
 #contact svg {
     -webkit-transition: fill 0.3s ease-in-out;
     -o-transition: fill 0.3s ease-in-out;
     transition: fill 0.3s ease-in-out;
-    width: 60px;  
+    width: 60px;
 }
+
 #contact svg:hover {
     fill: var(--kalyosphere-green);
 }
+
 #contact a span {
     overflow-wrap: break-word;
     -webkit-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
+
 #contact a span:hover {
     color: #3bb34b;
     text-decoration: underline;
@@ -265,24 +346,31 @@ footer {
     #summary .parallax-section {
         background-attachment: scroll;
     }
+
     #team .parallax-section {
         background-attachment: scroll;
     }
+
     #affiliated-business .parallax-section {
         background-attachment: scroll;
     }
+
     #rd-project .parallax-section {
         background-attachment: scroll;
     }
+
     #case-studies .parallax-section {
         background-attachment: scroll;
     }
+
     #publications .parallax-section {
         background-attachment: scroll;
     }
+
     #contact .parallax-section {
         background-attachment: scroll;
     }
+
     #business-support .parallax-section {
         background-attachment: scroll;
     }
