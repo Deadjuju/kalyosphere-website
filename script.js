@@ -50,6 +50,7 @@ getFooterDates(creationDate);
 
 const menu = document.querySelector(".nav-txt");
 const hamburgerButton = document.querySelector(".hamburger");
+const hamburgerMenu = document.querySelector(".hamburger-menu");
 
 /**
  * Manages appearance and disappearance of the menu according to the size of the screen
@@ -74,11 +75,11 @@ window.onresize = toggleMenu;
 hamburgerButton.addEventListener("click", () => {
   hamburgerButton.classList.toggle("open");
 
-  if (menu.classList.contains("slide-in-menu")) {
-    menu.classList.remove("slide-in-menu");
-    menu.classList.add("hidden");
+  if (hamburgerMenu.classList.contains("slide-in-menu")) {
+    hamburgerMenu.classList.remove("slide-in-menu");
+    hamburgerMenu.classList.add("slide-out-menu");
   } else {
-    menu.classList.remove("hidden");
-    menu.classList.add("slide-in-menu");
+    hamburgerMenu.classList.add("slide-in-menu");
+    hamburgerMenu.classList.remove("slide-out-menu");
   }
 });
