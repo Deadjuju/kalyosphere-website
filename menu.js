@@ -1,5 +1,13 @@
 const menuList = [
   {
+    name: "Kalyosphere",
+    href: "#essence",
+  },
+  {
+    name: "Strategy",
+    href: "#strategy",
+  },
+  {
     name: "Team",
     href: "#team",
   },

@@ -117,7 +117,7 @@ nav a:hover {
 }
 
 .hamburger-menu {
-    top: -250px;
+    top: -300px;
 }
 
 .slide-in-menu {
@@ -140,8 +140,8 @@ nav a:hover {
     }
 
     to {
-        -webkit-transform: translateY(305px);
-                transform: translateY(305px);
+        -webkit-transform: translateY(357px);
+                transform: translateY(357px);
     }
 }
 
@@ -152,14 +152,14 @@ nav a:hover {
     }
 
     to {
-        -webkit-transform: translateY(305px);
-                transform: translateY(305px);
+        -webkit-transform: translateY(357px);
+                transform: translateY(357px);
     }
 }
 @-webkit-keyframes slide-out {
     from {
-        -webkit-transform: translateY(305px);
-                transform: translateY(305px);
+        -webkit-transform: translateY(357px);
+                transform: translateY(357px);
     }
 
     to {
@@ -169,8 +169,8 @@ nav a:hover {
 }
 @keyframes slide-out {
     from {
-        -webkit-transform: translateY(305px);
-                transform: translateY(305px);
+        -webkit-transform: translateY(357px);
+                transform: translateY(357px);
     }
 
     to {
