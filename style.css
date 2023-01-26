@@ -231,6 +231,18 @@ nav a:hover {
 
 
 /* ________________________________________ */
+/* ----- Geothermal energy ----- */
+
+#geothermal-energy .parallax-section {
+    background: url('./img/parallax-geothermal-energy-big.jpg') no-repeat bottom / cover fixed;
+    /* Photo de Gregoire Dubois sur Flickr -- https://flickr.com/photos/wildlifepictures/23946815787/in/album-72177720295905669/ */
+}
+.test-border {
+    background-color: pink;
+    border-radius: 30% 70% 30% 70% / 35% 17% 83% 65% ;
+}
+
+/* ________________________________________ */
 /* ----- Summary Section ----- */
 
 #summary {
