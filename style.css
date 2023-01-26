@@ -214,6 +214,22 @@ nav a:hover {
 }
 
 
+/* ----- Home ----- */
+
+#home {
+    min-height: 80vh;
+    position: sticky;
+    margin-bottom: 70px;
+    z-index: -1;
+}
+#home h2 {
+    transition: opacity 0.5s ease-in-out;
+}
+.home-h2-transparent {
+    opacity: 0;
+}
+
+
 /* ________________________________________ */
 /* ----- Summary Section ----- */
 

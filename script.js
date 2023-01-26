@@ -18,14 +18,40 @@ window.addEventListener("scroll", function () {
   lastScroll = currentScroll;
 });
 
-// ---------- top coming soon section ----------
-const comingSoonSection = document.querySelector("#coming-soon");
-comingSoonSection.style.top = `${navHeight}px`;
-function getTopCommingSoonSection() {
-  const currentNavHeight = navBar.offsetHeight;
-  comingSoonSection.style.top = `${currentNavHeight}px`;
+// // ---------- top coming soon section ----------
+// const comingSoonSection = document.querySelector("#coming-soon");
+// comingSoonSection.style.top = `${navHeight}px`;
+// function getTopCommingSoonSection() {
+//   const currentNavHeight = navBar.offsetHeight;
+//   comingSoonSection.style.top = `${currentNavHeight}px`;
+// }
+// window.onresize = getTopCommingSoonSection;
+
+// ---------- top home section ----------
+const homeSection = document.querySelector("#home");
+const homeTitles = document.querySelectorAll("#home h2");
+
+homeSection.style.top = `${navHeight}px`;
+
+let titlesCounter = 0;
+
+function showTitles() {
+  homeTitles[titlesCounter].classList.remove("home-h2-transparent");
+  if (titlesCounter < homeTitles.length - 1) {
+    titlesCounter++;
+  } else {
+    clearInterval(intervalId);
+  }
 }
-window.onresize = getTopCommingSoonSection;
+
+const intervalId = setInterval(showTitles, 500);
+
+function getTopHomeSection() {
+  const currentNavHeight = navBar.offsetHeight;
+  homeSection.style.top = `${currentNavHeight}px`;
+}
+window.onresize = getTopHomeSection;
+
 
 // ---------- Get footer's dates ----------
 const creationDate = 2022;
