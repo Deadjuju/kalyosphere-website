@@ -420,7 +420,16 @@ footer {
 
     /* ----- Parallax ----- */
     /* For rendering on iPhone */
-    #summary .parallax-section {
+
+    #geothermal-energy .parallax-section {
+        background-attachment: scroll;
+    }
+
+    #essence .parallax-section {
+        background-attachment: scroll;
+    }
+
+    #strategy .parallax-section {
         background-attachment: scroll;
     }
 
@@ -443,12 +452,12 @@ footer {
     #publications .parallax-section {
         background-attachment: scroll;
     }
-
-    #contact .parallax-section {
+    
+    #business-support .parallax-section {
         background-attachment: scroll;
     }
 
-    #business-support .parallax-section {
+    #contact .parallax-section {
         background-attachment: scroll;
     }
 }
