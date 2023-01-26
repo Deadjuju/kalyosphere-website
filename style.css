@@ -204,22 +204,13 @@ nav a:hover {
 }
 
 
-/* ________________________________________ */
-/* ----- Comming-soon ----- */
-
-#coming-soon {
-    position: sticky;
-    margin-bottom: 70px;
-    z-index: -1;
-}
-
 
 /* ----- Home ----- */
 
 #home {
     min-height: 80vh;
     position: sticky;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
     z-index: -1;
 }
 #home h2 {
@@ -233,6 +224,10 @@ nav a:hover {
 /* ________________________________________ */
 /* ----- Geothermal energy ----- */
 
+#geothermal-energy {
+    -webkit-box-shadow: 2px -5px 5px 0 #000000;
+    box-shadow: 2px -5px 5px 0 #000000;
+}
 #geothermal-energy .parallax-section {
     background: url('./img/parallax-geothermal-energy-big.jpg') no-repeat bottom / cover fixed;
     /* Photo de Gregoire Dubois sur Flickr -- https://flickr.com/photos/wildlifepictures/23946815787/in/album-72177720295905669/ */
@@ -243,37 +238,18 @@ nav a:hover {
 }
 
 /* ________________________________________ */
-/* ----- Summary Section ----- */
+/* ----- Essence ----- */
 
-#summary {
-    -webkit-box-shadow: 2px -5px 5px 0 #000000;
-    box-shadow: 2px -5px 5px 0 #000000;
-}
 
-#summary .parallax-section {
-    min-height: 100vh;
-
-    /* background: url('./img/parallax-summary.jpg') no-repeat bottom / cover fixed; */
-    background: url('./img/parallax-summary.jpg');
-    /* Photo de Marjan Blan sur Unsplash -- https://unsplash.com/fr/photos/6bXvYyAYVrE */
+#essence .parallax-section {
+    background: url('./img/parallax-essence.jpg');
+    /* Photo de Marjan Blan sur Unsplash -- https://upload.wikimedia.org/wikipedia/commons/3/3b/Krafla_geothermal_power_station_wiki.jpg */
 
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
     background-attachment: fixed;
 }
-
-
-/* ________________________________________ */
-/* ----- our-mission ----- */
-/* #our-mission h2{
-    -webkit-transition: background-color 0.3s ease-in-out;
-    -o-transition: background-color 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
-}
-#our-mission h2:hover {
-    background-color: #F4F4F4;
-} */
 
 
 /* ________________________________________ */
