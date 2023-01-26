@@ -237,19 +237,40 @@ nav a:hover {
     border-radius: 30% 70% 30% 70% / 35% 17% 83% 65% ;
 }
 
+
 /* ________________________________________ */
 /* ----- Essence ----- */
-
 
 #essence .parallax-section {
     background: url('./img/parallax-essence.jpg');
     /* Photo de Ásgeir Eggertsson - sur Wikimedia -- https://commons.wikimedia.org/wiki/File:Krafla_geothermal_power_station_wiki.jpg */
-
+    
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
     background-attachment: fixed;
 }
+
+
+
+/* ________________________________________ */
+/* ----- Strategy ----- */
+
+#strategy .parallax-section {
+    background: url('./img/parallax-strategy.jpg') no-repeat bottom / cover fixed;
+    /* Photo de XXXX sur XXXXX -- url */
+}
+#my-svg-element {
+    fill: blue;
+}
+g {
+    fill: red;
+}
+
+/* #strategy svg path {
+    fill: pink;
+} */
+
 
 
 /* ________________________________________ */
