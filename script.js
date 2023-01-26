@@ -1,7 +1,6 @@
 // ---------- Show / Hide navbar ----------
 
 const navBar = document.querySelector(".navbar");
-const webPage = document.querySelector("#website");
 const navHeight = navBar.offsetHeight;
 
 let lastScroll = 0;
