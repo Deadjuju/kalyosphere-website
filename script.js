@@ -29,6 +29,7 @@ window.addEventListener("scroll", function () {
 // ---------- top home section ----------
 const homeSection = document.querySelector("#home");
 const homeTitles = document.querySelectorAll("#home h2");
+const homeImg = document.querySelectorAll("#home img");
 
 homeSection.style.top = `${navHeight}px`;
 
@@ -36,6 +37,7 @@ let titlesCounter = 0;
 
 function showTitles() {
   homeTitles[titlesCounter].classList.remove("home-h2-transparent");
+  homeImg[titlesCounter].classList.remove("home-h2-transparent");
   if (titlesCounter < homeTitles.length - 1) {
     titlesCounter++;
   } else {
@@ -43,7 +45,7 @@ function showTitles() {
   }
 }
 
-const intervalId = setInterval(showTitles, 500);
+const intervalId = setInterval(showTitles, 400);
 
 function getTopHomeSection() {
   const currentNavHeight = navBar.offsetHeight;
