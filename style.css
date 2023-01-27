@@ -91,6 +91,10 @@ section .bg-linkedin:hover {
     border: 2px solid var(--kalyosphere-blue);
 }
 
+.citation {
+    background-color: var(--kalyosphere-grey);
+}
+
 
 /* ________________________________________ */
 /* ----- Nav ----- */
@@ -297,10 +301,6 @@ g {
 #team .parallax-section {
     background: url('./img/parallax-team.jpg') no-repeat bottom / cover fixed;
     /* Photo de la Nasa sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
-}
-
-.citation {
-    background-color: var(--kalyosphere-grey);
 }
 
 #team .card {
