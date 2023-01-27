@@ -205,6 +205,7 @@ nav a:hover {
 
 
 
+/* ________________________________________ */
 /* ----- Home ----- */
 
 /* #home {
@@ -213,6 +214,10 @@ nav a:hover {
     margin-bottom: 70px;
     z-index: -1;
 } */
+.home__title {
+    border-bottom: solid 2px #3bb34b;
+}
+
 #home h2 {
     transition: opacity 0.5s ease-in-out;
 }
@@ -232,7 +237,10 @@ nav a:hover {
     background: url('./img/parallax-geothermal-energy.jpg') no-repeat bottom / cover fixed;
     /* Photo de Gregoire Dubois sur Flickr -- https://flickr.com/photos/wildlifepictures/23946815787/in/album-72177720295905669/ */
 }
-#geothermal-energy .geothermal-energy__box {
+.geothermal-energy__subtitles {
+    border-bottom: solid 2px #3bb34b;
+}
+/* #geothermal-energy .geothermal-energy__box {
     width: 375px;
 }
 .geothermal-energy__box:nth-child(1) {
@@ -250,7 +258,7 @@ nav a:hover {
 .geothermal-energy__box:nth-child(4) {
     background-color: aquamarine;
     border-radius: 13% 61% 49% 100% / 61% 63% 18% 72% ;
-}
+} */
 
 
 /* ________________________________________ */

@@ -1,3 +1,5 @@
+const smallScreenSize = 768;
+
 // ---------- Show / Hide navbar ----------
 
 const navBar = document.querySelector(".navbar");
@@ -17,14 +19,6 @@ window.addEventListener("scroll", function () {
   lastScroll = currentScroll;
 });
 
-// // ---------- top coming soon section ----------
-// const comingSoonSection = document.querySelector("#coming-soon");
-// comingSoonSection.style.top = `${navHeight}px`;
-// function getTopCommingSoonSection() {
-//   const currentNavHeight = navBar.offsetHeight;
-//   comingSoonSection.style.top = `${currentNavHeight}px`;
-// }
-// window.onresize = getTopCommingSoonSection;
 
 // ---------- top home section ----------
 const homeSection = document.querySelector("#home");
@@ -53,6 +47,35 @@ function getTopHomeSection() {
 }
 window.onresize = getTopHomeSection;
 
+
+// ---------- Adaptation of txt/img order in home section ----------
+
+const homeSubtitlesH2 = document.querySelectorAll(".home__subtitles h2");
+const homeSubtitlesImg = document.querySelectorAll(".home__subtitles img");
+
+function changeOrderAccordingScreenSize() {
+  if (document.body.offsetWidth <= smallScreenSize) {
+    // alert("COINCOIN");
+    homeSubtitlesH2.forEach((h2) => {
+      h2.classList.add("order-0");
+    });
+    homeSubtitlesImg.forEach((img) => {
+      img.classList.add("order-1");
+    });
+  } else {
+    homeSubtitlesH2.forEach((h2) => {
+      h2.classList.remove("order-0");
+    });
+    homeSubtitlesImg.forEach((img) => {
+      img.classList.remove("order-1");
+    });
+  }
+}
+
+changeOrderAccordingScreenSize();
+addEventListener("resize", () => {
+  changeOrderAccordingScreenSize();
+});
 
 // ---------- Get footer's dates ----------
 const creationDate = 2022;
