@@ -1,4 +1,6 @@
-const smallScreenSize = 768;
+const smallScreenSize = 576;
+const mdScreenSize = 768;
+const lgScreenSize = 992;
 
 // ---------- Show / Hide navbar ----------
 
@@ -53,22 +55,36 @@ window.onresize = getTopHomeSection;
 const homeSubtitlesH2 = document.querySelectorAll(".home__subtitles h2");
 const homeSubtitlesImg = document.querySelectorAll(".home__subtitles img");
 
+const blockContentText = document.querySelectorAll(".block-content-img p, .block-content-img h2");
+const blockContentImg = document.querySelectorAll(".block-content-img img");
+
 function changeOrderAccordingScreenSize() {
   if (document.body.offsetWidth <= smallScreenSize) {
-    // alert("COINCOIN");
-    homeSubtitlesH2.forEach((h2) => {
-      h2.classList.add("order-0");
+    blockContentText.forEach((text) => {
+      text.classList.add("order-0");
     });
-    homeSubtitlesImg.forEach((img) => {
+    blockContentImg.forEach((img) => {
       img.classList.add("order-1");
     });
+    // homeSubtitlesH2.forEach((h2) => {
+    //   h2.classList.add("order-0");
+    // });
+    // homeSubtitlesImg.forEach((img) => {
+    //   img.classList.add("order-1");
+    // });
   } else {
-    homeSubtitlesH2.forEach((h2) => {
-      h2.classList.remove("order-0");
+    blockContentText.forEach((text) => {
+      text.classList.remove("order-0");
     });
-    homeSubtitlesImg.forEach((img) => {
+    blockContentImg.forEach((img) => {
       img.classList.remove("order-1");
     });
+    // homeSubtitlesH2.forEach((h2) => {
+    //   h2.classList.remove("order-0");
+    // });
+    // homeSubtitlesImg.forEach((img) => {
+    //   img.classList.remove("order-1");
+    // });
   }
 }
 
