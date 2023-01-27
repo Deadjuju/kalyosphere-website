@@ -299,6 +299,10 @@ g {
     /* Photo de la Nasa sur Unsplash -- https://unsplash.com/fr/photos/lAcYPEiau0U */
 }
 
+.citation {
+    background-color: var(--kalyosphere-grey);
+}
+
 #team .card {
     color: var(--kalyosphere-blue);
     -webkit-transition: border-radius 0.3s ease-in-out;
