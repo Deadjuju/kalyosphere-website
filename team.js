@@ -28,6 +28,7 @@ const teamMembers = [
         photo: "./img/profile-ss-725.jpg",
         linkedin: "https://www.linkedin.com/in/sylvain-sarda-23a40b5"
     }
+    // ➕ ajoutez / retirez ici
 ];
 
 /* ---------- VIEW ---------- */
@@ -75,7 +76,7 @@ function createTeamCard(member) {
 
     footer.innerHTML = `
         <a href="${member.linkedin}" target="_blank"
-           class="bg-linkedin d-inline-block h-100 p-1 mx-auto"
+           class="bg-linkedin d-inline-block h-100 p-1"
            rel="noopener noreferrer">
            <span class="sr-only">Go to ${member.name} Linkedin page</span>
            <img src="./img/linkedin.svg" alt="LinkedIn logo" class="h-100">

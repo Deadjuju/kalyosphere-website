@@ -387,9 +387,12 @@ g {
 }
 
 #business-support .mentor-comittee-card {
-    width: 400px;
+    max-width: 400px;
 }
 
+#business-support .card-footer {
+    height:50px;
+}
 
 
 /* ________________________________________ */
