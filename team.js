@@ -1,4 +1,4 @@
-/* ---------- DATA ---------- */
+﻿/* ---------- DATA ---------- */
 const teamMembers = [
     {
         name: "Michel Garcia",
