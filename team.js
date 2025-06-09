@@ -20,6 +20,13 @@ const teamMembers = [
         expertise: "High expertise<br>in geological exploration & company executive",
         photo: "./img/profile-ar-725.jpeg",
         linkedin: "https://www.linkedin.com/in/alainrabaute"
+    },
+    {
+        name: "Sylvain Sarda",
+        position: "Financial Dir.",
+        expertise: "High expertise<br>in reservoir engineering & energy/infra project financing",
+        photo: "./img/profile-ss-725.jpg",
+        linkedin: "https://www.linkedin.com/in/sylvain-sarda-23a40b5"
     }
 ];
 
